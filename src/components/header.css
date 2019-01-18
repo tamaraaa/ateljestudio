@@ -1,0 +1,103 @@
+Nav {
+    background: #B32E25;
+    margin: 0 auto;
+  }
+  .navbar {
+    margin-bottom: 0;
+    color: #fff;
+
+  }
+  .NavbarBrand {
+    display: none !important;
+  }
+  #hide-brand{
+    display: none;
+  }
+  .navbar-toggle {
+    color: white;
+  }
+  .navbar-nav {
+    float: none;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 110px;
+  }
+  .navbar-nav > li a {
+    color: #fff;
+    border-bottom: 3px solid transparent;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+  }
+  .navbar-nav > li.home a {
+    font-size: 26px;
+  }
+  .navbar-nav > li.home a > img {
+    margin: 10px auto;
+  }
+  .nav > li.active > a {
+    text-decoration: none;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+  }
+  .nav  > li  > a:hover,
+  .nav  > li  > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+  }
+  .nav  > li.home  > a:hover,
+  .nav  > li.home  > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    border-bottom: 3px solid transparent;
+  }
+  .ml-auto{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 767px) {
+    #hide-brand{
+      display: block;
+      color: #fff;
+    }
+    .navbar-brand {
+      display: block;
+    }
+    .navbar-nav {
+      float: left;
+      text-align: left;
+      width: 100%;
+      margin: 7.5px 0;
+    }
+    .navbar-nav > li {
+      display: block;
+      width: 100%;
+    }
+    .navbar-nav > li.home {
+      display: none;
+    }
+    .navbar-collapse {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    #home {
+      padding: 20px 0;
+    }
+    #home .logo {
+      margin-bottom: 60px;
+    }
+   .Nav >.img-item{
+      display: none;
+    }
+  }

@@ -1,0 +1,13 @@
+#home {
+    padding: 100px 0;
+    color: white;
+    background-color: #B32E25;
+  }
+  #home p.text-extra-large {
+    margin-bottom: 60px;
+  }
+
+  .visible-xs{
+      display: none;
+  }
+

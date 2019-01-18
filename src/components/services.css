@@ -1,0 +1,12 @@
+#services {
+    background:#D94335;
+  }
+  .service-item i {
+    font-size: 120px;
+    line-height: 70px;
+    color: white;
+    margin: 30px auto;
+  }
+  .text-center{
+      text-align: center;
+  }
